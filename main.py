@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser(description='PyTorch Wikitext-103 RNN/LSTM Lang
 parser.add_argument('--data', type=str, default='./data/wikitext-103',
                     help='location of the data corpus')
 parser.add_argument('--model', type=str, default='LSTM',
-                    help='type of recurrent net (RNN_TANH, RNN_RELU, LSTM, GRU)')
+                    help='type of recurrent net (LSTM, GRU)')
 parser.add_argument('--emsize', type=int, default=200,
                     help='size of word embeddings')
 parser.add_argument('--nhid', type=int, default=200,
